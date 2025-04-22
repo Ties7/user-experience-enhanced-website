@@ -1,0 +1,54 @@
+{% render 'partials/head.liquid', title: 'Stekjes' %}
+
+<section class="head2">
+    <header>
+        <img class="logo" src="../assets/biebinbloei-logo1.svg" alt="">
+    </header>
+</section>
+
+<main class="stekje">
+    <article>
+        <img src="../assets/oranjepijl.svg" alt="">
+        <h2>Beschrijving</h2>
+        <p>{{ stekje.beschrijving }}</p>
+    
+        <details>
+            <summary>LANDHERKOMST</summary>
+            <p class="poep">{{ stekje.land_van_herkomst }}</p>
+        </details>
+    
+        <details>
+            <summary>LANDHERKOMST</summary>
+            <p>{{ stekje.land_van_herkomst }}</p>
+        </details>
+    
+        <details>
+            <summary>LANDHERKOMST</summary>
+            <p>{{ stekje.land_van_herkomst }}</p>
+        </details>
+    
+        <details>
+            <summary>LANDHERKOMST</summary>
+            <p>{{ stekje.land_van_herkomst }}</p>
+        </details>
+    
+        <details>
+            <summary>LANDHERKOMST</summary>
+            <p>{{ stekje.land_van_herkomst }}</p>
+        </details>
+    </article>
+
+
+    {% comment %} <form action="/like" method="POST">
+        <input type="hidden" name="stekjeid" value="{{ stekje.id }}">
+        <input type="text" name="text" >
+        <button type="submit" class="like-button">
+            ❤️
+        </button>
+    </form> {% endcomment %}
+
+
+</main>
+
+
+{% render 'partials/foot.liquid' %}
