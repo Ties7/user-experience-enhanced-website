@@ -2,7 +2,8 @@
 
 Ontwerp en maak voor een opdrachtgever een interactieve toepassing die voor iedereen toegankelijk is
 
-De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-web-is-for-everyone-interactive-functionality/blob/main/docs/INSTRUCTIONS.md)
+De instructie vind je in: ![image](https://github.com/user-attachments/assets/51e7290c-be74-466a-b479-aea7bd1a3ce5)
+
 
 
 ## Inhoudsopgave
