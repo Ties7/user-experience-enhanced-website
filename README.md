@@ -17,7 +17,8 @@ De instructie vind je in: ![image](https://github.com/user-attachments/assets/51
 
 ## Beschrijving
 ### Bieb in Bloei
-![Schermopname (71)](https://github.com/user-attachments/assets/7aa20e4f-6c57-4294-b64d-b60d58e87020)
+![image](https://github.com/user-attachments/assets/1f860081-470d-4390-baff-128c9801c245)
+
 
 Live website: https://the-web-is-for-everyone-interactive-wwpt.onrender.com/
 <!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
