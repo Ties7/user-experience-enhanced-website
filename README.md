@@ -20,7 +20,7 @@ De instructie vind je in: ![image](https://github.com/user-attachments/assets/51
 ![image](https://github.com/user-attachments/assets/1f860081-470d-4390-baff-128c9801c245)
 
 
-Live website: https://the-web-is-for-everyone-interactive-wwpt.onrender.com/
+Live website: https://user-experience-enhanced-website-6ffd.onrender.com
 <!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
 <!-- Voeg een mooie poster visual of video toe 📸 -->
 <!-- Voeg een link toe naar GitHub Pages 🌐-->
