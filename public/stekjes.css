@@ -26,8 +26,6 @@
 }
 
 
-
-
 .head {
     background-image: url(../assets/test.svg);
     height: 35rem;
@@ -59,6 +57,7 @@
     padding-top: 1.3rem;
     
     grid-template-columns: 1fr; /* mobile */
+    
 
     ul {
         list-style: none;
@@ -67,19 +66,31 @@
 
         li {
             position: relative;
+            border-radius: 1rem;
+            overflow: hidden;
+
 
             img {
                 width: 100%;
-                border-radius: 1rem;
+                /* border-radius: 1rem; */
                 display: block; /* spacing fix */
+                border-radius: 1rem;
+                transition: ease-in-out .2s;
             }
         
             h3 {
                 position: absolute;
-                top: 1rem;
-                margin-left: 1rem;
-                margin-right: 1rem;
+                top: 0rem;
+                height: auto;
+                border-top-left-radius: 1rem;
+                border-top-right-radius: 1rem;
+                padding: .7rem;
+
+                /* margin-left: 1rem; */
+                /* margin-right: 1rem; */
                 color: white;
+                background: #3c593e;
+                width: 100%;
             }
         }
 
@@ -88,6 +99,16 @@
             background: none;
             scale: 200%;
             cursor: pointer;
+        }
+    }
+    
+    ul:hover {
+        li {
+            overflow: hidden;
+            img {
+                scale: 110%;
+                object-fit: cover;
+            }
         }
     }
 
@@ -193,6 +214,21 @@
                 border-top-left-radius: 0;
                 border-top-right-radius: 0;
             }
+        }
+    }
+}
+
+form {
+    margin-top: .3rem;
+    .like-button {
+        display: flex;
+        flex-direction: row;
+        /* position: absolute; */
+    
+        p {
+            font-family: 'poppins', sans-serif;
+            font-weight: 600;
+            color: rgb(0, 0, 0);
         }
     }
 }
